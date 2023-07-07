@@ -1,0 +1,4 @@
+define info proc mappings
+echo 0x0 0xFFFFFFFF 0x100000000 0x0 mem \n
+end
+target remote localhost:2345

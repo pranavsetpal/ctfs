@@ -1,0 +1,7 @@
+import requests
+
+url = 'http://organic-sauerkraut.c.ctf-snyk.io/sayhi'
+data = {"name": "Pranav"}
+
+res = requests.post(url, data=data)
+print(res.text)
